@@ -1,0 +1,53 @@
+
+.intro{
+	font-size: 25px;
+	position: absolute;
+	bottom: 20vh;
+	left: 10vh;
+}
+.nevtext{
+	display: none;
+	font-size: 23px;
+	font-family: Source+Code+Pro;
+	position: absolute;
+	right: 160vh;
+	top: 20px;
+	cursor: default; 	 
+	color: #d9c7b8;
+	text-decoration: none;
+	list-style-type: none;
+	margin-bottom: auto ;
+}
+.hello{
+	position: relative;
+	top: 0px;
+	font-family:'Source Code Pro';
+	font-size: 65px;
+	-webkit-animation: fade 4s
+}
+.para{
+	font-size: 33px;
+	color:#7a4d73;
+	-webkit-animation: fade 10s;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  55% {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 640px){
+	.logoimg{
+		display: none;
+		position: relative;
+		top: 20px;
+	}
+	.intro{
+		position: absolute;
+		bottom: 360px;
+		z-index: -1;
+	}
+}

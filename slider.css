@@ -1,0 +1,166 @@
+
+.slider{
+    background-color:rgba(0, 0, 0, 0.0);
+  height: 40%;
+	width: 30%;
+	position: relative;
+	top: 30vh;
+	margin: auto;
+  margin-top: 80vh;
+	margin-bottom:50vh ;
+	object-fit: cover;
+}
+.image img{
+	
+	width: 65vh;
+	height: 91%;
+	object-fit: cover;
+}
+div.image {
+	display: flex;
+  background-color:rgba(0, 0, 0, 0.5);
+  box-shadow: 100px 50px 10px 0 rgba(0, 0, 0, 0.5), 20px 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+
+}
+a.prev:active{
+	transform: translateX(100%);
+}
+a.next:active{
+	transform: translateX(-100%);
+}
+
+/* Next & previous buttons */
+.control{
+  position: relative;
+  bottom: 30%;
+  left: -35%;
+}
+.prev{
+  cursor: pointer;
+  position: absolute;
+  left:65%;
+  top: 10%;
+  border-radius:50px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius:3px 0 0 3px ;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  left: 103%;
+  top:50%;
+  
+  border-radius:50px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.demo:active{
+	opacity: 1;
+}
+.demo:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 640px){
+.slider{
+  background-color:rgba(0, 0, 0, 0.0);
+  height: 32%;
+  width: 80%;
+  position: relative;
+  left: -2%;
+  top: 25%;
+  padding-top: 20vh;
+  padding-bottom: 90vh;
+  margin: auto;
+  margin-top: 40vh;
+  margin-bottom:50vh ;
+  object-fit: cover;
+}
+.image img{
+  
+  width: 45vh;
+  height: 90%;
+  object-fit: cover;
+}
+div.image img {
+  width: 100%;
+  display: flex;
+ background-color:rgba(0, 0, 0, 0.5);
+  box-shadow: 16px 50px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.control{
+  position: relative;
+  bottom: 8%;
+  left: -10%;
+}
+.prev{
+  background-color: cyan;
+  cursor: pointer;
+  position: absolute;
+  left:20%;
+  top: 110%;
+  border-radius:50px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  background-color: cyan;
+  cursor: pointer;
+  position: absolute;
+  left: 80%;
+  top: 110%;
+  border-radius:50px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+}

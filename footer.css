@@ -1,0 +1,121 @@
+.footer{
+	background-color:rgba(0, 0, 0, 0.0);
+	margin-top: 30%;
+	height: 20vh;
+}
+.iconinsta{
+	width: 3%;
+	position: absolute;
+	left: 41% ;
+	bottom:-151% ;
+	transition: all 0.3s ease-in-out;
+}
+.iconemail{
+	width: 3%;
+	position: absolute;
+	left: 46% ;
+	bottom:-151% ;
+	transition: all 0.3s ease-in-out;
+}
+.iconwhatsapp{
+	width: 3%;
+	position: absolute;
+	left: 51% ;
+	bottom:-151% ;
+	transition: all 0.3s ease-in-out;
+}
+.footernav{
+	text-decoration: none;
+}
+.footernav-container{
+	position: absolute;
+	left: 42% ;
+	bottom:-156% ;
+}
+.cradit{
+	color:#b9baa9;
+	position: absolute;
+	left: 34% ;
+	bottom:-160% ;
+}
+.iconinsta:hover{
+	transform: rotate(25deg) ;	
+}
+.iconemail:hover{
+	transform: rotate(25deg) ;	
+}
+.iconwhatsapp:hover{
+	transform: rotate(25deg) ;	
+}
+a.footernav{
+	color: black;
+}
+a.flaticon{
+	color: #0a4037;
+}
+a.freepik{
+	color: #0a4037;
+}
+
+@media screen and ( max-width: 640px){
+
+	.footer{
+	background-color:rgba(0, 0, 0, 0.0);
+	margin:auto ;
+	position: relative;
+	
+	height: 20vh;
+}
+
+.iconinsta{
+	width: 9%;
+	position: relative;
+	left: 30% ;
+	top: 20% ;
+	transition: all 0.5s ease-in-out;
+}
+.iconemail{
+	width: 9%;
+	position: relative;
+	left: 35% ;
+	top: 20% ;
+	transition: all 0.5s ease-in-out;
+}
+.iconwhatsapp{
+	width: 9%;
+	position: relative;
+	left: 40% ;
+	top: 20% ;
+}
+.footernav{
+	position: relative;
+	bottom: 5%;
+	text-decoration: none;
+}
+.footernav-container{
+	width: 45%;
+	position:relative;
+	left: 33% ;
+	bottom: 5%;
+	}
+
+.cradit{
+	width: 58%;
+	text-align: center;
+	position: relative;
+	left: 21% ;
+	bottom:-42% ;
+	margin-top: 8px;
+	
+}
+a.footernav{
+	color: black;
+}
+a.flaticon{
+	color: forestgreen;
+}
+a.freepik{
+	color: forestgreen;
+}
+
+}

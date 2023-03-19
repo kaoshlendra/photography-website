@@ -1,0 +1,18 @@
+<!--
+<div class="row">
+    <div class="column">
+      <img class="demo cursor" src="./image/pexels-george-sultan-1768835.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./image/pexels-masha-raymers-4318392.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./image/pexels-roman-odintsov-5327786.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./image/pexels-todd-trapani-1903900.jpg" style="width:100%" onclick= "currentSlide(4)" alt="Northern Lights">
+    </div>
+    -->
+    color for bg #faf2fc
+    color for slider #5F4B8BFF
+    cange for bg #f5dcf5
